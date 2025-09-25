@@ -178,8 +178,8 @@ contactForm.addEventListener('submit', async (e) => {
 });
 
 // Resume download functionality
-downloadResumeBtn.addEventListener('click', (e) => {
-    e.preventDefault();
+//downloadResumeBtn.addEventListener('click', (e) => {
+  //  e.preventDefault();
     
     // Create a temporary link to download the resume
     // In a real implementation, you would link to your actual resume file
@@ -191,8 +191,8 @@ downloadResumeBtn.addEventListener('click', (e) => {
    // document.body.removeChild(link);
     
     // Show notification
-    showNotification('Resume download started!');
-});
+ //   showNotification('Resume download started!');
+//});
 
 // Helper functions
 function showError(elementId, message) {
