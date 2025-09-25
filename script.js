@@ -183,12 +183,12 @@ downloadResumeBtn.addEventListener('click', (e) => {
     
     // Create a temporary link to download the resume
     // In a real implementation, you would link to your actual resume file
-    const link = document.createElement('a');
-    link.href = './Assets/cv.pdf'; // Replace with your actual resume file path
-    link.download = 'cv_sukhdeep_singh.pdf'; // Desired file name
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+  //  const link = document.createElement('a');
+   // link.href = './Assets/cv.pdf'; // Replace with your actual resume file path
+  //  link.download = 'cv_sukhdeep_singh.pdf'; // Desired file name
+  //  document.body.appendChild(link);
+  //  link.click();
+   // document.body.removeChild(link);
     
     // Show notification
     showNotification('Resume download started!');
