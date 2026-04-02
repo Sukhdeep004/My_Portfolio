@@ -10,8 +10,7 @@ html {
 }
 
 body {
-    font-family: 'Inter', sans-serif;
-    line-height: 1.6;
+    font-family: 'Inter', system-ui, -apple-system, Arial, sans-serif;    line-height: 1.6;
     color: #333;
     overflow-x: hidden;
 }

@@ -6,8 +6,10 @@
     <title>Sukhdeep Singh- Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<!-- ✅ OPTIMIZED GOOGLE FONT (Subset + Swap) -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap&text=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789" rel="stylesheet">    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- ✅ PRELOAD FONT -->
+<link rel="preload" href="https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTcviYw.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -413,7 +415,7 @@
             <div class="resume-content fade-in">
                 <h2 class="section-title">Resume</h2>
                 <p>Download my complete resume to learn more about my experience, education, and skills.</p>
-                <a href="#" class="btn btn-primary" id="download-resume">
+                <a href="./Assets/CV.pdf" target="_blank" class="btn btn-primary">
                     <i class="fas fa-download"></i>
                     Download Resume
                 </a>
@@ -451,7 +453,7 @@
                     </div>
                 </div>
                 
-                <form class="contact-form fade-in" id="contact-form">
+                <!-- <form class="contact-form fade-in" id="contact-form">
                     <div class="form-group">
                         <input type="text" id="name" name="name" placeholder="Your Name" required>
                         <span class="error-message" id="name-error"></span>
@@ -468,7 +470,7 @@
                         Send Message
                         <i class="fas fa-paper-plane"></i>
                     </button>
-                </form>
+                </form> -->
             </div>
         </div>
     </section>
